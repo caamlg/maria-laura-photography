@@ -86,7 +86,7 @@
     }
     .servicios__foto--#{$seccion} {
     grid-area: foto--#{$seccion};
-    background-image: url('../images/principal_#{$seccion}.JPG');
+    background-image: url('../images/principal_#{$seccion}.jpg');
     }
 }
 .serviciosOpcionales { 

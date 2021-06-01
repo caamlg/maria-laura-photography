@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /*paleta de colores*/
 /*fuentes*/
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 * {
   margin: 0px;
   padding: 0px;
 }
 
-/* line 5, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 5, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 p {
   margin: 15px;
   color: #5e6472;
@@ -15,54 +15,54 @@ p {
   text-align: justify;
 }
 
-/* line 11, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 11, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 body {
   background-image: linear-gradient(to bottom, #fed8d7, #ffddd5, #ffe2d5, #ffe7d6, #fdecd8, #f9eed7, #f3f1d7, #edf3d8, #e1f3d7, #d4f3da, #c6f3df, #b8f2e6);
 }
 
-/* line 14, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 14, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header, .header__imagen {
   width: 100%;
   height: 90vh;
 }
 
-/* line 18, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 18, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen {
   background-size: cover;
   background-position: center;
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--home {
-  background-image: url("../images/home.JPG");
+  background-image: url("../images/home.jpg");
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--servicios {
-  background-image: url("../images/servicios.JPG");
+  background-image: url("../images/servicios.jpg");
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--portfolio {
-  background-image: url("../images/portfolio.JPG");
+  background-image: url("../images/portfolio.jpg");
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--sobremi {
-  background-image: url("../images/sobremi.JPG");
+  background-image: url("../images/sobremi.jpg");
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--contacto {
-  background-image: url("../images/contacto.JPG");
+  background-image: url("../images/contacto.jpg");
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__imagen--404 {
-  background-image: url("../images/404.JPG");
+  background-image: url("../images/404.jpg");
 }
 
-/* line 28, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 28, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .logoTexto {
   font-size: 1.88rem;
   font-family: 'Amatic SC', cursive;
@@ -72,13 +72,13 @@ body {
   letter-spacing: 2px;
 }
 
-/* line 36, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 36, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__titulo {
   padding: 10px;
   position: relative;
 }
 
-/* line 39, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 39, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .header__titulo h1 {
   font-size: 2.5rem;
   font-family: "Amatic SC", cursive;
@@ -88,7 +88,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* line 49, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 49, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 footer {
   background-color: rgba(184, 242, 230, 0.7);
   padding: 40px 20px;
@@ -102,7 +102,7 @@ footer {
   align-items: center;
 }
 
-/* line 64, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 64, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__logo {
   font-size: 0.75rem;
   overflow: hidden;
@@ -114,7 +114,7 @@ footer {
   grid-area: footLogo;
 }
 
-/* line 74, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 74, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces, .footer__enlaces nav, .footer__enlaces ul, .footer__enlaces ul a {
   display: inline-block;
   list-style: none;
@@ -125,18 +125,18 @@ footer {
   grid-area: footEnlaces;
 }
 
-/* line 84, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 84, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces--hover, .footer__enlaces ul a:hover {
   color: #0e9cdd;
 }
 
-/* line 87, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 87, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto {
   text-align: center;
   grid-area: footContacto;
 }
 
-/* line 92, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 92, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--titulo h5 {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
@@ -146,19 +146,19 @@ footer {
   padding: 10px;
 }
 
-/* line 102, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 102, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--texto p {
   color: #5e6472;
   font-size: 0.75rem;
   padding: 5px;
 }
 
-/* line 108, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 108, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 img.footer__contacto--logos {
   width: 40px;
 }
 
-/* line 111, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 111, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .footer__copyright {
   color: #5e6472;
   font-size: 0.75rem;
@@ -167,34 +167,34 @@ img.footer__contacto--logos {
   grid-area: footCopy;
 }
 
-/* line 119, ../Desafíos/Clase 12/ML Photography V2/sass/_general.scss */
+/* line 119, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_general.scss */
 .pagina-error p {
   text-align: center;
   color: #fff;
 }
 
-/* line 2, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 2, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar-dark .navbar-nav .nav-link {
   color: #aed9e0;
 }
 
-/* line 5, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 5, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
   color: #b8f2e6;
 }
 
-/* line 9, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 9, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: #aed9e0;
 }
 
-/* line 14, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 14, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #aed9e0;
 }
 
-/* line 20, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 20, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .nav-justified > .nav-link,
 .nav-justified .nav-item {
   flex-basis: 0;
@@ -204,7 +204,7 @@ img.footer__contacto--logos {
   font-size: 1rem;
 }
 
-/* line 29, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 29, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar, .dropdown-menu {
   background-color: rgba(94, 100, 114, 0.7);
   box-shadow: 0px 11px 15px 1px rgba(0, 0, 0, 0.75);
@@ -213,24 +213,24 @@ img.footer__contacto--logos {
   font-size: 1rem;
 }
 
-/* line 36, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 36, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .navbar-collapse {
   flex-basis: 100%;
   flex-grow: 0;
 }
 
-/* line 40, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 40, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .dropdown-item {
   color: #aed9e0;
 }
 
-/* line 43, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 43, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .dropdown-item:hover {
   color: #b8f2e6;
   background-color: rgba(94, 100, 114, 0.7);
 }
 
-/* line 48, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 48, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .accordion-button:focus, .accordion-button, .accordion-button:not(.collapsed) {
   color: #5e6472;
   background-color: #e1f3d7;
@@ -238,13 +238,13 @@ img.footer__contacto--logos {
   box-shadow: 0 0 0 0.25rem rgba(174, 217, 224, 0.25);
 }
 
-/* line 54, ../Desafíos/Clase 12/ML Photography V2/sass/_bootstrapcambios.scss */
+/* line 54, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_bootstrapcambios.scss */
 .accordion-body {
   color: #5e6472;
   background-color: #faf3dd;
 }
 
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_home.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_home.scss */
 .mainHome {
   display: flex;
   flex-wrap: wrap;
@@ -253,21 +253,21 @@ img.footer__contacto--logos {
   margin: 15px;
 }
 
-/* line 8, ../Desafíos/Clase 12/ML Photography V2/sass/_home.scss */
+/* line 8, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_home.scss */
 .mainHome__texto, p.mainHome__texto {
   padding: 5px;
   width: 70%;
   overflow: hidden;
 }
 
-/* line 13, ../Desafíos/Clase 12/ML Photography V2/sass/_home.scss */
+/* line 13, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_home.scss */
 img.mainHome__imagen {
   padding: 5px;
   width: 70vw;
   object-fit: cover;
 }
 
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios {
   padding: 20px;
   display: grid;
@@ -280,7 +280,7 @@ img.mainHome__imagen {
   align-items: start;
 }
 
-/* line 22, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 22, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__menu {
   grid-area: serviciosMenu;
   display: flex;
@@ -288,7 +288,7 @@ img.mainHome__imagen {
   justify-content: space-evenly;
 }
 
-/* line 28, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 28, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__menu--contenedor {
   position: relative;
   display: inline-block;
@@ -296,14 +296,14 @@ img.mainHome__imagen {
   border: 1px dashed #000;
 }
 
-/* line 34, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 34, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__menu--imagen {
   width: 192px;
   height: 90px;
   object-fit: cover;
 }
 
-/* line 39, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 39, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__menu--texto {
   width: 192px;
   height: 90px;
@@ -318,7 +318,7 @@ img.mainHome__imagen {
   display: none;
 }
 
-/* line 52, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 52, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__menu--contenedor:hover .servicios__menu--texto {
   background-color: rgba(94, 100, 114, 0.7);
   display: flex;
@@ -326,7 +326,7 @@ img.mainHome__imagen {
   justify-content: center;
 }
 
-/* line 59, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 59, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__titulo h2 {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
@@ -336,19 +336,19 @@ img.mainHome__imagen {
   padding: 5px 10px;
 }
 
-/* line 68, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 68, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__titulo--Opcionales {
   grid-area: tituloOpcionales;
   text-align: center;
 }
 
-/* line 72, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 72, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto {
   justify-self: stretch;
   overflow: hidden;
 }
 
-/* line 76, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 76, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto {
   background-size: cover;
   background-position: top center;
@@ -357,40 +357,40 @@ img.mainHome__imagen {
   padding: 5px;
 }
 
-/* line 84, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 84, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--eventos {
   grid-area: texto--eventos;
 }
 
-/* line 87, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 87, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--eventos {
   grid-area: foto--eventos;
-  background-image: url("../images/principal_eventos.JPG");
+  background-image: url("../images/principal_eventos.jpg");
 }
 
-/* line 84, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 84, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--fliadoc {
   grid-area: texto--fliadoc;
 }
 
-/* line 87, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 87, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--fliadoc {
   grid-area: foto--fliadoc;
-  background-image: url("../images/principal_fliadoc.JPG");
+  background-image: url("../images/principal_fliadoc.jpg");
 }
 
-/* line 84, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 84, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--producto {
   grid-area: texto--producto;
 }
 
-/* line 87, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 87, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--producto {
   grid-area: foto--producto;
-  background-image: url("../images/principal_producto.JPG");
+  background-image: url("../images/principal_producto.jpg");
 }
 
-/* line 92, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 92, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales {
   grid-area: serviciosOpcionales;
   display: grid;
@@ -400,7 +400,7 @@ img.mainHome__imagen {
   grid-template-areas: "tituloOpcionales" "imagen--Fotolibro" "titulo--Fotolibro" "texto--Fotolibro" "imagen--Guirnalda" "titulo--Guirnalda" "texto--Guirnalda" "imagen--Ready" "titulo--Ready" "texto--Ready";
 }
 
-/* line 110, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 110, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen {
   background-size: cover;
   background-position: center;
@@ -409,7 +409,7 @@ img.mainHome__imagen {
   padding: 5px;
 }
 
-/* line 118, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 118, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo h3 {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
@@ -420,65 +420,65 @@ img.mainHome__imagen {
   text-align: center;
 }
 
-/* line 129, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 129, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Fotolibro {
   grid-area: imagen--Fotolibro;
   background-image: url("../images/Fotolibro.jpg");
 }
 
-/* line 133, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 133, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Fotolibro {
   grid-area: titulo--Fotolibro;
 }
 
-/* line 136, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 136, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Fotolibro {
   grid-area: texto--Fotolibro;
 }
 
-/* line 129, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 129, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Guirnalda {
   grid-area: imagen--Guirnalda;
   background-image: url("../images/Guirnalda.jpg");
 }
 
-/* line 133, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 133, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Guirnalda {
   grid-area: titulo--Guirnalda;
 }
 
-/* line 136, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 136, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Guirnalda {
   grid-area: texto--Guirnalda;
 }
 
-/* line 129, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 129, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Ready {
   grid-area: imagen--Ready;
   background-image: url("../images/Ready.jpg");
 }
 
-/* line 133, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 133, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Ready {
   grid-area: titulo--Ready;
 }
 
-/* line 136, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 136, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Ready {
   grid-area: texto--Ready;
 }
 
-/* line 140, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 140, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__preguntasFrecuentes {
   grid-area: preguntasFrecuentes;
 }
 
-/* line 143, ../Desafíos/Clase 12/ML Photography V2/sass/_servicios.scss */
+/* line 143, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__titulo--preguntasFrecuentes {
   text-align: center;
 }
 
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_portfolio.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_portfolio.scss */
 .portfolio {
   padding: 30px;
   display: flex;
@@ -488,7 +488,7 @@ img.mainHome__imagen {
   align-content: space-between;
 }
 
-/* line 8, ../Desafíos/Clase 12/ML Photography V2/sass/_portfolio.scss */
+/* line 8, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_portfolio.scss */
 .portfolio img {
   object-fit: cover;
   width: 300px;
@@ -496,7 +496,7 @@ img.mainHome__imagen {
   padding: 10px;
 }
 
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_sobremi.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_sobremi.scss */
 .sobremi {
   padding: 30px;
   justify-content: space-evenly;
@@ -506,7 +506,7 @@ img.mainHome__imagen {
   min-height: 100vh;
 }
 
-/* line 8, ../Desafíos/Clase 12/ML Photography V2/sass/_sobremi.scss */
+/* line 8, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_sobremi.scss */
 .sobremi p {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 30px;
@@ -515,7 +515,7 @@ img.mainHome__imagen {
   width: 70%;
 }
 
-/* line 1, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 1, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .contacto {
   padding: 20px;
   margin: auto;
@@ -525,7 +525,7 @@ img.mainHome__imagen {
   align-items: center;
 }
 
-/* line 10, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 10, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .contacto__foto img {
   width: 300px;
   height: 350px;
@@ -533,7 +533,7 @@ img.mainHome__imagen {
   padding: 20px;
 }
 
-/* line 17, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 17, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .contacto__form {
   font-family: Varta, Geneva, Tahoma, sans-serif;
   font-size: 0.88rem;
@@ -542,7 +542,7 @@ img.mainHome__imagen {
   padding: 20px;
 }
 
-/* line 24, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 24, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .form__fieldset {
   background-color: #aed9e0;
   padding: 10px;
@@ -551,7 +551,7 @@ img.mainHome__imagen {
   justify-content: space-around;
 }
 
-/* line 32, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 32, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .form__titulo h4 {
   font-family: "Amatic SC", cursive;
   color: #fff;
@@ -561,24 +561,24 @@ img.mainHome__imagen {
   padding: 5px;
 }
 
-/* line 41, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 41, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .fieldset__label {
   padding: 10px 0px 5px 0;
 }
 
-/* line 44, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 44, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 .fieldset__label--row {
   display: flex;
 }
 
-/* line 47, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 47, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 input.botones {
   align-self: center;
   padding: 4px;
   margin: 3px;
 }
 
-/* line 52, ../Desafíos/Clase 12/ML Photography V2/sass/_contacto.scss */
+/* line 52, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_contacto.scss */
 textarea {
   font-family: Varta, Geneva, Tahoma, sans-serif;
   padding: 10px;
@@ -593,7 +593,7 @@ textarea {
   }
 }
 
-/* line 9, ../Desafíos/Clase 12/ML Photography V2/sass/_animaciones.scss */
+/* line 9, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_animaciones.scss */
 .fade-in {
   animation: fade-in 0.5s linear both;
 }
@@ -607,20 +607,20 @@ textarea {
   }
 }
 
-/* line 20, ../Desafíos/Clase 12/ML Photography V2/sass/_animaciones.scss */
+/* line 20, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_animaciones.scss */
 .scale-up-center:hover {
   animation: scale-up-center 0.6s ease-in both;
   cursor: pointer;
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 2, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 2, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .header__titulo {
     padding: 10px;
     position: relative;
     top: 30%;
   }
-  /* line 6, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 6, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .header__titulo h1 {
     font-size: 2.5rem;
     font-family: "Amatic SC", cursive;
@@ -632,20 +632,20 @@ textarea {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 17, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 17, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .mainHome {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 30px;
   }
-  /* line 23, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 23, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .mainHome__texto, p.mainHome__texto {
     padding: 10px;
     width: 40%;
     overflow: hidden;
   }
-  /* line 28, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 28, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   img.mainHome__imagen {
     padding: 10px;
     width: 40vw;
@@ -654,7 +654,7 @@ textarea {
 }
 
 @media only screen and (min-width: 650px) {
-  /* line 35, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 35, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   footer {
     background-color: rgba(184, 242, 230, 0.7);
     padding: 40px 20px;
@@ -670,7 +670,7 @@ textarea {
 }
 
 @media only screen and (min-width: 480px) {
-  /* line 51, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 51, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .servicios__menu {
     grid-area: serviciosMenu;
     display: grid;
@@ -684,7 +684,7 @@ textarea {
 }
 
 @media only screen and (min-width: 1024px) {
-  /* line 63, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 63, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .servicios {
     padding: 20px;
     display: grid;
@@ -696,14 +696,14 @@ textarea {
     align-content: center;
     align-items: center;
   }
-  /* line 80, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 80, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .servicios__menu {
     grid-area: serviciosMenu;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  /* line 86, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 86, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .serviciosOpcionales {
     grid-area: serviciosOpcionales;
     display: grid;
@@ -715,7 +715,7 @@ textarea {
 }
 
 @media only screen and (min-width: 600px) {
-  /* line 101, ../Desafíos/Clase 12/ML Photography V2/sass/_media.scss */
+  /* line 101, ../Desafíos/Clases 12-13-14/ML Photography V2/Maria-Laura-Photography/sass/_media.scss */
   .contacto__foto img {
     width: 430px;
     height: 600px;

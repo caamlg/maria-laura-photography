@@ -22,7 +22,7 @@ body {
 }
 @each $imagen in home, servicios, portfolio, sobremi, contacto, 404 {
     .header__imagen--#{$imagen} {
-    background-image: url('../images/#{$imagen}.JPG');
+    background-image: url('../images/#{$imagen}.jpg');
     }
 }
 .logoTexto {
