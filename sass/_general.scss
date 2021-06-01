@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    margin: 15px;
+    color: $gris;
+    font-size: 1rem;
+    text-align: justify;
+}
+body {
+    background-image: $fondo;
+}
+.header {
+    width: 100%;
+    height: 90vh;
+}
+.header__imagen {
+    @extend .header;
+    background-size: cover;
+    background-position: center;
+}
+@each $imagen in home, servicios, portfolio, sobremi, contacto, 404 {
+    .header__imagen--#{$imagen} {
+    background-image: url('../images/#{$imagen}.JPG');
+    }
+}
+.logoTexto {
+font-size: 1.88rem;
+font-family: 'Amatic SC', cursive;
+color: $rosa;
+font-weight: 700;
+text-align: center;
+letter-spacing: 2px;
+}
+.header__titulo {
+    padding: 10px;
+    position: relative;
+        h1 {
+        font-size: 2.5rem;
+        font-family: $fuente-titulo;
+        color: #fff;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 2px;
+        }
+}
+
+footer {
+    background-color: rgba(184, 242, 230, 0.7);
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px 0px;
+    grid-template-areas:
+      "footLogo footLogo"
+      "footEnlaces footContacto"
+      "footCopy footCopy";
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__logo {
+    font-size: 0.75rem;
+    overflow: hidden;
+    color: $gris;
+    text-align: justify;
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    grid-area: footLogo;
+}
+.footer__enlaces {
+    nav, ul, ul a { @extend .footer__enlaces }
+    display: inline-block;
+    list-style: none;
+    color: #6bbc9a;
+    font-size: 0.75rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    grid-area: footEnlaces;
+    }
+.footer__enlaces--hover, .footer__enlaces ul a:hover {
+    color: #0e9cdd;
+}
+.footer__contacto {
+    text-align: center;
+    grid-area: footContacto;
+}
+.footer__contacto--titulo {
+    h5 {
+    font-family: $fuente-titulo;
+    color: $rosa;
+    font-weight: 700;
+    font-size: 1.56rem;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    }
+}
+.footer__contacto--texto {
+    p {
+    color: $gris;
+    font-size: 0.75rem;
+    padding: 5px;
+    }
+}
+img.footer__contacto--logos {
+        width: 40px;
+}
+.footer__copyright {
+    color: $gris;
+    font-size: 0.75rem;
+    padding: 5px;
+    justify-self: center;
+    grid-area: footCopy;
+}
+.pagina-error {
+    p {
+        text-align: center;
+        color: #fff;
+    }
+}

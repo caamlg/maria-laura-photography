@@ -1,0 +1,57 @@
+.navbar-dark .navbar-nav {
+  .nav-link {
+    color: $celeste;
+
+    &:hover,
+    &:focus {
+      color: $verde;
+    }
+    &.disabled {
+      color: $celeste;
+    }
+  }
+
+  .show > .nav-link,
+  .nav-link.active {
+    color: $celeste 
+  }
+}
+.nav-justified {
+    > .nav-link,
+    .nav-item {
+      flex-basis: 0;
+      flex-grow: 0;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 1rem;
+    }
+  }
+.navbar, .dropdown-menu {
+    background-color: rgba(94, 100, 114, 0.7);
+    box-shadow: 0px 11px 15px 1px rgba(0,0,0,0.75);
+    color: $celeste;
+    text-transform: capitalize;
+    font-size: 1rem;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+.dropdown-item {
+  color: $celeste;
+}
+.dropdown-item:hover {
+  color: $verde;
+  background-color: rgba(94, 100, 114, 0.7);
+}
+
+.accordion-button:focus, .accordion-button, .accordion-button:not(.collapsed) {
+  color: #5e6472;
+  background-color: #e1f3d7;
+  border-color: #b8f2e6;
+  box-shadow: 0 0 0 0.25rem rgba(174, 217, 224, 0.25)
+}
+.accordion-body {
+  color: #5e6472;
+  background-color: #faf3dd;
+}

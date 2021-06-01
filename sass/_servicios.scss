@@ -1,0 +1,145 @@
+.servicios {
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto 450px auto auto 450px auto 450px auto auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas:
+    "serviciosMenu"
+    "serviciosMenu"
+    "foto--eventos"
+    "texto--eventos"
+    "serviciosOpcionales"
+    "foto--fliadoc"
+    "texto--fliadoc"
+    "foto--producto"
+    "texto--producto"
+    "preguntasFrecuentes";
+    justify-content: center;
+    align-content: center;
+    align-items: start;
+}
+.servicios__menu { 
+    grid-area: serviciosMenu;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+  .servicios__menu--contenedor {
+    position: relative;
+    display: inline-block;
+    padding: 3px;
+    border: 1px dashed #000;
+}
+.servicios__menu--imagen {
+    width: 192px;
+    height: 90px;
+    object-fit: cover;
+}
+.servicios__menu--texto {
+    width: 192px;
+    height: 90px;
+    position: absolute;
+    top: 3%;
+    font-family: $fuente-titulo;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+}
+.servicios__menu--contenedor:hover .servicios__menu--texto {
+    background-color: rgba(94, 100, 114, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicios__titulo {
+    h2{
+        font-family: $fuente-titulo;
+        color: $rosa;
+        font-weight: 700;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        padding: 5px 10px;
+    }
+}
+.servicios__titulo--Opcionales {
+    grid-area: tituloOpcionales;
+    text-align: center;
+}
+.servicios__texto {
+    justify-self: stretch;
+    overflow: hidden;
+}
+.servicios__foto { 
+    background-size: cover;
+    background-position: top center;
+    justify-self: stretch;
+    align-self: stretch;
+    padding: 5px;
+    }
+@each $seccion in eventos, fliadoc, producto {
+    .servicios__texto--#{$seccion} {
+        grid-area: texto--#{$seccion};
+    }
+    .servicios__foto--#{$seccion} {
+    grid-area: foto--#{$seccion};
+    background-image: url('../images/principal_#{$seccion}.JPG');
+    }
+}
+.serviciosOpcionales { 
+    grid-area: serviciosOpcionales;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 450px auto auto 450px auto auto 450px auto auto;
+    gap: 5px 20px;
+    grid-template-areas:
+      "tituloOpcionales"
+      "imagen--Fotolibro"
+      "titulo--Fotolibro"
+      "texto--Fotolibro"
+      "imagen--Guirnalda"
+      "titulo--Guirnalda"
+      "texto--Guirnalda"
+      "imagen--Ready"
+      "titulo--Ready"
+      "texto--Ready";
+  }
+.serviciosOpcionales__imagen {
+    background-size: cover;
+        background-position: center;
+        justify-self: stretch;
+        align-self: stretch;
+        padding: 5px;
+}
+.serviciosOpcionales__titulo {
+    h3 {
+    font-family: $fuente-titulo;
+    color: $rosa;
+    font-weight: 700;
+    font-size: 2.19rem;
+    letter-spacing: 1.5px;
+    padding: 5px;
+    text-align: center;
+    }
+}
+@each $opc in Fotolibro, Guirnalda, Ready {
+    .serviciosOpcionales__imagen--#{$opc} {
+        grid-area: imagen--#{$opc};
+        background-image: url('../images/#{$opc}.jpg')
+    }
+    .serviciosOpcionales__titulo--#{$opc} {
+        grid-area: titulo--#{$opc};
+    }
+    .serviciosOpcionales__texto--#{$opc} {
+        grid-area: texto--#{$opc}
+    }
+}
+.servicios__preguntasFrecuentes {
+    grid-area: preguntasFrecuentes;
+}
+.servicios__titulo--preguntasFrecuentes {
+    text-align: center;
+}
