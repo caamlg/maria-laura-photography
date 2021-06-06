@@ -96,9 +96,7 @@ footer {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
   gap: 10px 0px;
-  grid-template-areas: "footLogo footLogo"
- "footEnlaces footContacto"
- "footCopy footCopy";
+  grid-template-areas: "footLogo footLogo" "footEnlaces footContacto" "footCopy footCopy";
   justify-items: center;
   justify-content: space-evenly;
   align-items: center;
@@ -121,7 +119,7 @@ footer {
   display: inline-block;
   list-style: none;
   color: #6bbc9a;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   text-decoration: none;
   text-transform: capitalize;
   grid-area: footEnlaces;
@@ -151,7 +149,7 @@ footer {
 /* line 102, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--texto p {
   color: #5e6472;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   padding: 5px;
 }
 
@@ -276,16 +274,7 @@ img.mainHome__imagen {
   grid-template-rows: auto auto 450px auto auto 450px auto 450px auto auto;
   grid-template-columns: 1fr;
   gap: 20px;
-  grid-template-areas: "serviciosMenu"
- "serviciosMenu"
- "foto--eventos"
- "texto--eventos"
- "serviciosOpcionales"
- "foto--fliadoc"
- "texto--fliadoc"
- "foto--producto"
- "texto--producto"
- "preguntasFrecuentes";
+  grid-template-areas: "serviciosMenu" "serviciosMenu" "foto--eventos" "texto--eventos" "serviciosOpcionales" "foto--fliadoc" "texto--fliadoc" "foto--producto" "texto--producto" "preguntasFrecuentes";
   justify-content: center;
   align-content: center;
   align-items: start;
@@ -408,16 +397,7 @@ img.mainHome__imagen {
   grid-template-columns: 1fr;
   grid-template-rows: auto 450px auto auto 450px auto auto 450px auto auto;
   gap: 5px 20px;
-  grid-template-areas: "tituloOpcionales"
- "imagen--Fotolibro"
- "titulo--Fotolibro"
- "texto--Fotolibro"
- "imagen--Guirnalda"
- "titulo--Guirnalda"
- "texto--Guirnalda"
- "imagen--Ready"
- "titulo--Ready"
- "texto--Ready";
+  grid-template-areas: "tituloOpcionales" "imagen--Fotolibro" "titulo--Fotolibro" "texto--Fotolibro" "imagen--Guirnalda" "titulo--Guirnalda" "texto--Guirnalda" "imagen--Ready" "titulo--Ready" "texto--Ready";
 }
 
 /* line 110, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
@@ -682,8 +662,7 @@ textarea {
     grid-template-columns: 40% 20% 20%;
     grid-template-rows: auto auto;
     gap: 5px 10px;
-    grid-template-areas: "footLogo footEnlaces footContacto"
- "footCopy footCopy footCopy";
+    grid-template-areas: "footLogo footEnlaces footContacto" "footCopy footCopy footCopy";
     justify-items: center;
     justify-content: space-evenly;
     align-items: center;
@@ -712,12 +691,7 @@ textarea {
     grid-template-columns: 40% 40%;
     grid-template-rows: auto 0.7fr 1fr 0.7fr 0.7fr auto;
     gap: 30px 20px;
-    grid-template-areas: "serviciosMenu serviciosMenu"
- "foto--eventos texto--eventos"
- "serviciosOpcionales serviciosOpcionales"
- "texto--fliadoc foto--fliadoc"
- "foto--producto texto--producto"
- "preguntasFrecuentes preguntasFrecuentes";
+    grid-template-areas: "serviciosMenu serviciosMenu" "foto--eventos texto--eventos" "serviciosOpcionales serviciosOpcionales" "texto--fliadoc foto--fliadoc" "foto--producto texto--producto" "preguntasFrecuentes preguntasFrecuentes";
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -736,10 +710,7 @@ textarea {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto 1fr auto 1fr;
     gap: 5px 20px;
-    grid-template-areas: "tituloOpcionales tituloOpcionales tituloOpcionales"
- "imagen--Fotolibro imagen--Guirnalda imagen--Ready"
- "titulo--Fotolibro titulo--Guirnalda titulo--Ready"
- "texto--Fotolibro texto--Guirnalda texto--Ready";
+    grid-template-areas: "tituloOpcionales tituloOpcionales tituloOpcionales" "imagen--Fotolibro imagen--Guirnalda imagen--Ready" "titulo--Fotolibro titulo--Guirnalda titulo--Ready" "texto--Fotolibro texto--Guirnalda texto--Ready";
   }
 }
 
