@@ -104,7 +104,7 @@ footer {
 
 /* line 64, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__logo {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   overflow: hidden;
   color: #5e6472;
   text-align: justify;
@@ -114,7 +114,12 @@ footer {
   grid-area: footLogo;
 }
 
-/* line 74, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 73, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+.footer__logo img {
+  margin-right: 15px;
+}
+
+/* line 77, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces, .footer__enlaces nav, .footer__enlaces ul, .footer__enlaces ul a {
   display: inline-block;
   list-style: none;
@@ -125,18 +130,18 @@ footer {
   grid-area: footEnlaces;
 }
 
-/* line 84, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces--hover, .footer__enlaces ul a:hover {
   color: #0e9cdd;
 }
 
-/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 90, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto {
   text-align: center;
   grid-area: footContacto;
 }
 
-/* line 92, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 95, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--titulo h5 {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
@@ -146,19 +151,19 @@ footer {
   padding: 10px;
 }
 
-/* line 102, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 105, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--texto p {
   color: #5e6472;
   font-size: 0.85rem;
   padding: 5px;
 }
 
-/* line 108, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 111, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 img.footer__contacto--logos {
   width: 40px;
 }
 
-/* line 111, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 114, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__copyright {
   color: #5e6472;
   font-size: 0.75rem;
@@ -167,7 +172,7 @@ img.footer__contacto--logos {
   grid-area: footCopy;
 }
 
-/* line 119, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 122, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .pagina-error p {
   text-align: center;
   color: #fff;

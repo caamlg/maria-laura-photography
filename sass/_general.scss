@@ -62,7 +62,7 @@ footer {
     align-items: center;
 }
 .footer__logo {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     overflow: hidden;
     color: $gris;
     text-align: justify;
@@ -70,6 +70,9 @@ footer {
     display: flex;
     align-items: center;
     grid-area: footLogo;
+    img {
+        margin-right: 15px;
+    }
 }
 .footer__enlaces {
     nav, ul, ul a { @extend .footer__enlaces }
