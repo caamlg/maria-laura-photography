@@ -9,7 +9,7 @@ p {
     text-align: justify;
 }
 body {
-    background-image: $fondo;
+    background-color: $amarillo;
 }
 .header {
     width: 100%;
@@ -47,7 +47,7 @@ letter-spacing: 2px;
 }
 
 footer {
-    background-color: rgba(184, 242, 230, 0.7);
+    background-color: $verde;
     padding: 40px 20px;
     display: grid;
     grid-template-columns: auto auto;

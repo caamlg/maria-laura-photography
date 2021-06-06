@@ -46,12 +46,12 @@
 }
 
 .accordion-button:focus, .accordion-button, .accordion-button:not(.collapsed) {
-  color: #5e6472;
-  background-color: #e1f3d7;
+  color: $gris;
+  background-color: #fed8d7;
   border-color: #b8f2e6;
   box-shadow: 0 0 0 0.25rem rgba(174, 217, 224, 0.25)
 }
 .accordion-body {
   color: #5e6472;
-  background-color: #faf3dd;
+  background-color: $celeste;
 }

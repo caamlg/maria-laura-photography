@@ -33,7 +33,7 @@ img.mainHome__imagen {
 }
 @media only screen and (min-width: 650px) {
     footer {
-        background-color: rgba(184, 242, 230, 0.7);
+        background-color: $verde;
         padding: 40px 20px;
         display: grid;
         grid-template-columns: 40% 20% 20%;
