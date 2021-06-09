@@ -76,10 +76,6 @@ body {
 .header__titulo {
   padding: 10px;
   position: relative;
-}
-
-/* line 39, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
-.header__titulo h1 {
   font-size: 2.5rem;
   font-family: "Amatic SC", cursive;
   color: #fff;
@@ -88,7 +84,7 @@ body {
   letter-spacing: 2px;
 }
 
-/* line 49, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 42, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 footer {
   background-color: #b8f2e6;
   padding: 40px 20px;
@@ -102,7 +98,7 @@ footer {
   align-items: center;
 }
 
-/* line 64, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 57, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__logo {
   font-size: 0.85rem;
   overflow: hidden;
@@ -114,12 +110,12 @@ footer {
   grid-area: footLogo;
 }
 
-/* line 73, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 66, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__logo img {
   margin-right: 30px;
 }
 
-/* line 77, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 70, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces, .footer__enlaces nav, .footer__enlaces ul, .footer__enlaces ul a {
   display: inline-block;
   list-style: none;
@@ -130,19 +126,19 @@ footer {
   grid-area: footEnlaces;
 }
 
-/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 80, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__enlaces--hover, .footer__enlaces ul a:hover {
   color: #0e9cdd;
 }
 
-/* line 90, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 83, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto {
   text-align: center;
   grid-area: footContacto;
 }
 
-/* line 95, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
-.footer__contacto--titulo h5 {
+/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+.footer__contacto--titulo {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
   font-weight: 700;
@@ -151,19 +147,19 @@ footer {
   padding: 10px;
 }
 
-/* line 105, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 91, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__contacto--texto p {
   color: #5e6472;
   font-size: 0.85rem;
   padding: 5px;
 }
 
-/* line 111, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 97, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 img.footer__contacto--logos {
   width: 40px;
 }
 
-/* line 114, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 100, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .footer__copyright {
   color: #5e6472;
   font-size: 0.75rem;
@@ -172,7 +168,7 @@ img.footer__contacto--logos {
   grid-area: footCopy;
 }
 
-/* line 122, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
+/* line 108, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_general.scss */
 .pagina-error p {
   text-align: center;
   color: #fff;
@@ -272,6 +268,17 @@ img.mainHome__imagen {
   object-fit: cover;
 }
 
+/* line 18, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_home.scss */
+.mainHome__opciones--titulo {
+  font-family: "Amatic SC", cursive;
+  color: #ffa69e;
+  font-weight: 700;
+  font-size: 2.19rem;
+  letter-spacing: 1.5px;
+  padding: 5px;
+  text-align: center;
+}
+
 /* line 1, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios {
   padding: 20px;
@@ -331,8 +338,8 @@ img.mainHome__imagen {
   justify-content: center;
 }
 
-/* line 59, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
-.servicios__titulo h2 {
+/* line 58, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+.servicios__titulo {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
   font-weight: 700;
@@ -341,19 +348,19 @@ img.mainHome__imagen {
   padding: 5px 10px;
 }
 
-/* line 68, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 61, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__titulo--Opcionales {
   grid-area: tituloOpcionales;
   text-align: center;
 }
 
-/* line 72, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 65, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto {
   justify-self: stretch;
   overflow: hidden;
 }
 
-/* line 76, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 69, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto {
   background-size: cover;
   background-position: top center;
@@ -362,40 +369,40 @@ img.mainHome__imagen {
   padding: 5px;
 }
 
-/* line 84, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 77, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--eventos {
   grid-area: texto--eventos;
 }
 
-/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 80, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--eventos {
   grid-area: foto--eventos;
   background-image: url("../images/principal_eventos.jpg");
 }
 
-/* line 84, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 77, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--fliadoc {
   grid-area: texto--fliadoc;
 }
 
-/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 80, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--fliadoc {
   grid-area: foto--fliadoc;
   background-image: url("../images/principal_fliadoc.jpg");
 }
 
-/* line 84, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 77, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__texto--producto {
   grid-area: texto--producto;
 }
 
-/* line 87, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 80, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__foto--producto {
   grid-area: foto--producto;
   background-image: url("../images/principal_producto.jpg");
 }
 
-/* line 92, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 85, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales {
   grid-area: serviciosOpcionales;
   display: grid;
@@ -405,7 +412,7 @@ img.mainHome__imagen {
   grid-template-areas: "tituloOpcionales" "imagen--Fotolibro" "titulo--Fotolibro" "texto--Fotolibro" "imagen--Guirnalda" "titulo--Guirnalda" "texto--Guirnalda" "imagen--Ready" "titulo--Ready" "texto--Ready";
 }
 
-/* line 110, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 103, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen {
   background-size: cover;
   background-position: center;
@@ -414,8 +421,8 @@ img.mainHome__imagen {
   padding: 5px;
 }
 
-/* line 118, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
-.serviciosOpcionales__titulo h3 {
+/* line 110, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+.serviciosOpcionales__titulo {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
   font-weight: 700;
@@ -425,60 +432,60 @@ img.mainHome__imagen {
   text-align: center;
 }
 
-/* line 129, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 114, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Fotolibro {
   grid-area: imagen--Fotolibro;
   background-image: url("../images/Fotolibro.jpg");
 }
 
-/* line 133, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 118, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Fotolibro {
   grid-area: titulo--Fotolibro;
 }
 
-/* line 136, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 121, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Fotolibro {
   grid-area: texto--Fotolibro;
 }
 
-/* line 129, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 114, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Guirnalda {
   grid-area: imagen--Guirnalda;
   background-image: url("../images/Guirnalda.jpg");
 }
 
-/* line 133, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 118, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Guirnalda {
   grid-area: titulo--Guirnalda;
 }
 
-/* line 136, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 121, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Guirnalda {
   grid-area: texto--Guirnalda;
 }
 
-/* line 129, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 114, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__imagen--Ready {
   grid-area: imagen--Ready;
   background-image: url("../images/Ready.jpg");
 }
 
-/* line 133, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 118, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__titulo--Ready {
   grid-area: titulo--Ready;
 }
 
-/* line 136, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 121, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .serviciosOpcionales__texto--Ready {
   grid-area: texto--Ready;
 }
 
-/* line 140, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 125, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__preguntasFrecuentes {
   grid-area: preguntasFrecuentes;
 }
 
-/* line 143, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
+/* line 128, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_servicios.scss */
 .servicios__titulo--preguntasFrecuentes {
   text-align: center;
 }
@@ -556,34 +563,33 @@ img.mainHome__imagen {
   justify-content: space-around;
 }
 
-/* line 32, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
-.form__titulo h4 {
+/* line 31, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
+.form__titulo {
   font-family: "Amatic SC", cursive;
   color: #fff;
   font-weight: 700;
   font-size: 1.9rem;
   letter-spacing: 1.7px;
-  padding: 5px;
 }
 
-/* line 41, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
+/* line 34, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
 .fieldset__label {
   padding: 10px 0px 5px 0;
 }
 
-/* line 44, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
+/* line 37, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
 .fieldset__label--row {
   display: flex;
 }
 
-/* line 47, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
+/* line 40, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
 input.botones {
   align-self: center;
   padding: 4px;
   margin: 3px;
 }
 
-/* line 52, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
+/* line 45, ../Desafíos/Proyecto final/Maria-Laura-Photography/sass/_contacto.scss */
 textarea {
   font-family: Varta, Geneva, Tahoma, sans-serif;
   padding: 10px;

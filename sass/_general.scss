@@ -36,14 +36,7 @@ letter-spacing: 2px;
 .header__titulo {
     padding: 10px;
     position: relative;
-        h1 {
-        font-size: 2.5rem;
-        font-family: $fuente-titulo;
-        color: #fff;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 2px;
-        }
+        @include h1
 }
 
 footer {
@@ -92,14 +85,7 @@ footer {
     grid-area: footContacto;
 }
 .footer__contacto--titulo {
-    h5 {
-    font-family: $fuente-titulo;
-    color: $rosa;
-    font-weight: 700;
-    font-size: 1.56rem;
-    letter-spacing: 1.5px;
-    padding: 10px;
-    }
+    @include h5
 }
 .footer__contacto--texto {
     p {
