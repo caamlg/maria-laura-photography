@@ -1,0 +1,25 @@
+{
+  "name": "maria-laura-photography",
+  "version": "1.0.0",
+  "description": "Este es un proyecto para el curso de Desarrollo Web de Coderhouse. Se trata de una web sencilla y responsive con cinco secciones. Está hecha para una página de un emprendimiento de fotografía.\r ## Sobre el proyecto\r En la realización del proyecto se vieron:\r * HTML\r * CSS, SASS y Bootstrap\r * Animaciones\r * Git\r * SEO\r ## El sitio\r Para visualizar cómo se ve en este momento el proyecto, hacé clic [acá](https://caamlg.github.io/maria-laura-photography/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/estilos.scss estilos/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caamlg/maria-laura-photography.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caamlg/maria-laura-photography/issues"
+  },
+  "homepage": "https://github.com/caamlg/maria-laura-photography#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
