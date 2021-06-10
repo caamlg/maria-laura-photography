@@ -13,6 +13,18 @@
         }
     }
 }
+@media only screen and (min-width: 360px) {
+    .logoTexto {
+        font-size: 1.88rem;
+        font-family: 'Amatic SC', cursive;
+        color: $rosa;
+        font-weight: 700;
+        text-align: center;
+        letter-spacing: 2px;
+        margin-left: 15px;
+        display: inline-block;
+        }
+}
 @media only screen and (min-width: 768px) {
 .mainHome {
     display: flex;

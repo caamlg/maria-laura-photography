@@ -54,7 +54,8 @@ body {
   font-weight: 700;
   text-align: center;
   letter-spacing: 2px;
-  margin-left: 15px; }
+  margin-left: 15px;
+  display: none; }
 
 .header__titulo {
   padding: 10px;
@@ -466,6 +467,17 @@ textarea {
       font-weight: 700;
       text-align: center;
       letter-spacing: 2px; } }
+
+@media only screen and (min-width: 360px) {
+  .logoTexto {
+    font-size: 1.88rem;
+    font-family: 'Amatic SC', cursive;
+    color: #ffa69e;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-left: 15px;
+    display: inline-block; } }
 
 @media only screen and (min-width: 768px) {
   .mainHome {
