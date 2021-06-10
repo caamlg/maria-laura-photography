@@ -15,7 +15,7 @@ body {
 
 .header, .header__imagen {
   width: 100%;
-  height: 90vh; }
+  height: 100vh; }
 
 .header__imagen {
   background-size: cover;
