@@ -6,6 +6,7 @@ p {
     margin: 15px;
     color: $gris;
     font-size: 1rem;
+    font-family: 'Varta', sans-serif;
     text-align: justify;
 }
 body {
@@ -50,11 +51,22 @@ display: none;
     justify-content: space-around !important;
 }
 .header__titulo {
+    margin: 0px 10vw;
     padding: 10px;
     position: relative;
-        @include h1
+        h1 {
+            @include h1;
+            text-shadow: #000 1px 0 10px;
+        }
 }
-
+.header__texto {
+    p {
+        text-align: center;
+        color: #fff;
+        text-shadow: #000 1px 0 10px;
+        font-style: italic;
+    }
+}
 footer {
     background-color: $verde;
     padding: 40px 20px;

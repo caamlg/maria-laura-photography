@@ -8,6 +8,7 @@ p {
   margin: 15px;
   color: #5e6472;
   font-size: 1rem;
+  font-family: 'Varta', sans-serif;
   text-align: justify; }
 
 body {
@@ -64,14 +65,23 @@ body {
   justify-content: space-around !important; }
 
 .header__titulo {
+  margin: 0px 10vw;
   padding: 10px;
-  position: relative;
-  font-size: 2.5rem;
-  font-family: "Amatic SC", cursive;
-  color: #fff;
-  font-weight: 700;
+  position: relative; }
+  .header__titulo h1 {
+    font-size: 2.5rem;
+    font-family: "Amatic SC", cursive;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: #000 1px 0 10px; }
+
+.header__texto p {
   text-align: center;
-  letter-spacing: 2px; }
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+  font-style: italic; }
 
 footer {
   background-color: #b8f2e6;
@@ -447,6 +457,31 @@ textarea {
   font-family: Varta, Geneva, Tahoma, sans-serif;
   padding: 10px; }
 
+@keyframes downarrow {
+  0% {
+    -webkit-transform: translateY(0);
+    opacity: 0.4; }
+  100% {
+    -webkit-transform: translateY(0.4em);
+    opacity: 0.9; } }
+
+.arrow {
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 2em;
+  display: block;
+  height: 0;
+  margin: auto;
+  opacity: 0.4;
+  text-indent: -9999px;
+  transform-origin: 50% 50%;
+  width: 0;
+  text-shadow: #000 1px 0 10px; }
+
+.down {
+  animation: downarrow 0.6s infinite alternate ease-in-out;
+  border-top: 2em solid #fff; }
+
 @keyframes fade-in {
   0% {
     opacity: 0; }
@@ -468,16 +503,23 @@ textarea {
 
 @media only screen and (min-width: 992px) {
   .header__titulo {
+    margin: 0px 31vw;
     padding: 10px;
     position: relative;
-    top: 30%; }
+    top: 35%; }
     .header__titulo h1 {
       font-size: 2.5rem;
       font-family: "Amatic SC", cursive;
       color: #fff;
       font-weight: 700;
       text-align: center;
-      letter-spacing: 2px; } }
+      letter-spacing: 2px;
+      text-shadow: #000 1px 0 10px; }
+  .header__texto p {
+    text-align: center;
+    color: #fff;
+    text-shadow: #000 1px 0 10px;
+    font-style: italic; } }
 
 @media only screen and (min-width: 360px) {
   .logoTexto {
