@@ -57,6 +57,12 @@ body {
   margin-left: 15px;
   display: none; }
 
+.nav__redes {
+  display: none; }
+
+.container-fluid--nav {
+  justify-content: space-around !important; }
+
 .header__titulo {
   padding: 10px;
   position: relative;
@@ -107,13 +113,13 @@ footer {
   text-align: center;
   grid-area: footContacto; }
 
-.footer__contacto--titulo {
+.footer__contacto--titulo h5 {
   font-family: "Amatic SC", cursive;
   color: #ffa69e;
   font-weight: 700;
   font-size: 1.56rem;
   letter-spacing: 1.5px;
-  padding: 10px; }
+  margin-bottom: 0px !important; }
 
 .footer__contacto--texto p {
   color: #5e6472;
@@ -121,7 +127,7 @@ footer {
   padding: 5px; }
 
 img.footer__contacto--logos {
-  width: 40px; }
+  width: 60px; }
 
 .footer__copyright {
   color: #5e6472;
@@ -135,9 +141,14 @@ img.footer__contacto--logos {
   color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #aed9e0; }
+  color: #aed9e0;
+  text-decoration: underline 0.15em rgba(184, 242, 230, 0);
+  text-underline-offset: 0.1em;
+  transition: all 0.5s; }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: #b8f2e6; }
+    color: #b8f2e6;
+    text-decoration-color: #b8f2e6;
+    text-underline-offset: 0.4em; }
   .navbar-dark .navbar-nav .nav-link.disabled {
     color: #aed9e0; }
 
@@ -479,6 +490,17 @@ textarea {
     margin-left: 15px;
     display: inline-block; } }
 
+@media only screen and (min-width: 992px) {
+  .nav__redes {
+    display: inline-block; }
+    .nav__redes img {
+      width: 45px;
+      padding: 5px;
+      filter: grayscale(80%);
+      transition: all 0.3s; }
+      .nav__redes img:hover {
+        filter: none; } }
+
 @media only screen and (min-width: 768px) {
   .mainHome {
     display: flex;
@@ -497,11 +519,11 @@ textarea {
 @media only screen and (min-width: 650px) {
   footer {
     background-color: #b8f2e6;
-    padding: 40px 20px;
+    padding: 20px 10px;
     display: grid;
-    grid-template-columns: 40% 20% 20%;
+    grid-template-columns: 50% 20% 30%;
     grid-template-rows: auto auto;
-    gap: 5px 10px;
+    gap: 5px;
     grid-template-areas: "footLogo footEnlaces footContacto" "footCopy footCopy footCopy";
     justify-items: center;
     justify-content: space-evenly;

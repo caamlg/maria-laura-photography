@@ -25,6 +25,20 @@
         display: inline-block;
         }
 }
+@media only screen and (min-width: 992px) {
+    .nav__redes {
+        display: inline-block;
+        img {
+            width: 45px;
+            padding: 5px;
+            filter: grayscale(80%);
+            transition: all 0.3s;
+            &:hover {
+                filter: none;
+            }
+        }
+    }
+}
 @media only screen and (min-width: 768px) {
 .mainHome {
     display: flex;
@@ -46,11 +60,11 @@ img.mainHome__imagen {
 @media only screen and (min-width: 650px) {
     footer {
         background-color: $verde;
-        padding: 40px 20px;
+        padding: 20px 10px;
         display: grid;
-        grid-template-columns: 40% 20% 20%;
+        grid-template-columns: 50% 20% 30%;
         grid-template-rows: auto auto;
-        gap: 5px 10px;
+        gap: 5px;
         grid-template-areas:
                             "footLogo footEnlaces footContacto"
                             "footCopy footCopy footCopy";

@@ -43,6 +43,12 @@ letter-spacing: 2px;
 margin-left: 15px;
 display: none;
 }
+.nav__redes {
+    display: none;
+}
+.container-fluid--nav {
+    justify-content: space-around !important;
+}
 .header__titulo {
     padding: 10px;
     position: relative;
@@ -95,7 +101,8 @@ footer {
     grid-area: footContacto;
 }
 .footer__contacto--titulo {
-    @include h5
+    h5 { @include h5 
+    }
 }
 .footer__contacto--texto {
     p {
@@ -105,7 +112,7 @@ footer {
     }
 }
 img.footer__contacto--logos {
-        width: 40px;
+        width: 60px;
 }
 .footer__copyright {
     color: $gris;

@@ -1,10 +1,15 @@
 .navbar-dark .navbar-nav {
   .nav-link {
     color: $celeste;
+    text-decoration: underline 0.15em rgba(184, 242, 230, 0);
+    text-underline-offset: 0.1em;
+    transition: all 0.5s;
 
     &:hover,
     &:focus {
       color: $verde;
+      text-decoration-color: rgba(184, 242, 230, 1);
+      text-underline-offset: 0.4em;
     }
     &.disabled {
       color: $celeste;
