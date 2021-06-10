@@ -11,9 +11,17 @@ p {
 body {
     background-color: $amarillo;
 }
+.fixed-top {
+    top: -40px;
+    background-color: $gris !important;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.75) !important;
+    transform: translateY(40px);
+    transition: all .3s;
+    z-index: 1030;
+}
 .header {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 .header__imagen {
     @extend .header;
@@ -32,6 +40,7 @@ color: $rosa;
 font-weight: 700;
 text-align: center;
 letter-spacing: 2px;
+margin-left: 15px;
 }
 .header__titulo {
     padding: 10px;
