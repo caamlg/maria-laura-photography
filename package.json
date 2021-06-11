@@ -1,7 +1,6 @@
 {
   "name": "maria-laura-photography",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -22,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/caamlg/maria-laura-photography/issues"
   },
-  "homepage": "https://github.com/caamlg/maria-laura-photography#readme"
+  "homepage": "https://github.com/caamlg/maria-laura-photography#readme",
+  "description": ""
 }
