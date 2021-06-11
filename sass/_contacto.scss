@@ -29,14 +29,7 @@
     justify-content: space-around;
 }
 .form__titulo {
-    h4 {
-    font-family: $fuente-titulo;
-    color: #fff;
-    font-weight: 700;
-    font-size: 1.9rem;
-    letter-spacing: 1.7px;
-    padding: 5px;
-    }
+    @include h4
 }
 .fieldset__label {
     padding: 10px 0px 5px 0

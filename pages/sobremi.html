@@ -10,14 +10,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../images/favicon.png">
     <title>Sobre Mí</title>
 </head>
 <body>
     <header class="header__imagen header__imagen--sobremi">
-        <nav class="navbar navbar-expand-lg navbar-dark p-3">
-            <div class="container-fluid">
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark p-3">
+            <div class="container-fluid container-fluid--nav">
                 <a class="navbar-brand d-flex align-items-center" href="#">
                     <img src="../images/LogoML.png" width="75" alt="logo">
                     <div class="logoTexto">ml photography</div>
@@ -55,6 +56,9 @@
                   </li>
                 </ul>
               </div>
+              <div class="nav__redes">
+                <a href="https://wa.link/vsbo29"><img src="https://cdn.pixabay.com/photo/2015/08/03/13/58/soon-873316_960_720.png" alt="whatsapp" title="whatsapp"></a><a href="https://www.instagram.com/mlauraphotography/"><img src="https://cdn.pixabay.com/photo/2016/09/17/07/03/instagram-1675670_960_720.png" alt="instagram" title="instagram"></a><a href="https://www.facebook.com/MariaLauraPhotography/"><img src="https://cdn.pixabay.com/photo/2016/12/22/04/28/facebook-1924510_960_720.png" alt="facebook" title="facebook"></a>
+              </div>
             </div>
           </nav>
         </div>
@@ -62,43 +66,70 @@
           <h1>
             conocé un poco sobre mí
           </h1>
+          <a href="#mains" class="arrow down">Down</a>
         </div>
     </header>
-    <main class="sobremi">
-        <p>Mi nombre es María Laura, pero nunca me gusto que me digan así, creo que es el karma de las nacidas en los 80, el tener el "María" delante de tu "verdadero nombre". Siempre me identifique más con Laura, pero por algún motivo, mi nombre completo me parece más ceremonioso, más serio sí se quiere. ​</p>
+    <main class="sobremi" id="mains">
+        <p>Mi nombre es María Laura, pero nunca me gustó que me digan así, creo que es el karma de las nacidas en los 80, el tener el "María" delante de tu "verdadero nombre". Siempre me identifiqué más con Laura, pero por algún motivo, mi nombre completo me parece más ceremonioso, más serio si se quiere. ​</p>
         <p>Soy Licenciada en Turismo y Hotelería, y una apasionada de la fotografía, lo cual me llevo a hacer diferentes talleres, cursos y workshops a lo largo de mi vida.</p>
-        <p>Estudiando la carrera de Turismo y Hotelería, hay algo que siempre me quedo muy gravado, a "la cultura hay que preservarla". A la hora de hacer fotos, esto es algo que recuerdo siempre, ¿y cómo puedo contribuir con esto desde mi rol de fotógrafa?:  simple, generando recuerdos en cada familia con la que tengo el agrado de trabajar, con cada pareja, con cada persona, recuerdos que demuestran como era la cultura con la que se relacionaban en un lugar y momento dado. Una foto dice mucho más que mil palabras, por eso, me gusta plasmar la realidad en la que vivo, en la que todos vivimos, para que el día de mañana, podamos dejar un testimonio gráfico de cómo fue nuestra vida.</p>
+        <p>Estudiando la carrera de Turismo y Hotelería, hay algo que siempre me quedo muy grabado, a "la cultura hay que preservarla". A la hora de hacer fotos, esto es algo que recuerdo siempre, ¿y cómo puedo contribuir con esto desde mi rol de fotógrafa?:  simple, generando recuerdos en cada familia con la que tengo el agrado de trabajar, con cada pareja, con cada persona, recuerdos que demuestran como era la cultura con la que se relacionaban en un lugar y momento dado. Una foto dice mucho más que mil palabras, por eso, me gusta plasmar la realidad en la que vivo, en la que todos vivimos, para que el día de mañana, podamos dejar un testimonio gráfico de cómo fue nuestra vida.</p>
     </main>
     <footer>
-        <div class="footer__logo">
-            <img src="../images/LogoML.png" alt="logo" width="75">Al aceptar y contratar un presupuesto, los contratantes aceptan la forma de trabajar de la fotógrafa, tanto en su manera de editar, como en su manera de hacer las tomas fotográficas.
-        </div>
-        <div class="footer__enlaces">
-            <nav>
-                <ul>
-                    <li><a href="../index.html">home</a></li>
-                    <li><a href="servicios.html">servicios</a></li>
-                    <li><a href="portfolio.html">portfolio</a></li>
-                    <li><a href="sobremi.html">ir arriba</a></li>
-                    <li><a href="contacto.html">contacto</a></li>
-                </ul>
-            </nav> 
-        </div>
-        <div class="footer__contacto">
-            <div class="footer__contacto--titulo"><h5>contacto</h5></div>
-            <div class="footer__contacto--texto">
-              <p>
-                +54 9 11 #### ####<br>
-                +54 9 11 #### ####<br>
-                nombre@mail.com.ar 
-              </p>
-                <a href="#"><img src="https://cdn.pixabay.com/photo/2016/11/21/08/44/icon-1844471_960_720.png" class="footer__contacto--logos" alt="whatsapp" title="whatsapp"></a><a href="#"><img src="https://cdn.pixabay.com/photo/2016/11/18/11/16/social-1834010_960_720.png" class="footer__contacto--logos" alt="instagram" title="instagram"></a><a href="#"><img src="https://cdn.pixabay.com/photo/2016/11/18/11/16/social-1834007_960_720.png" class="footer__contacto--logos" alt="facebook" title="facebook"></a>
-              </div>
-        </div>
-        <div class="footer__copyright">
-            © Camila Giorgetta
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>  
-</body>
+      <div class="footer__logo">
+          <img src="../images/LogoML.png" alt="logo" width="75">Al aceptar y contratar un presupuesto, los contratantes aceptan la forma de trabajar de la fotógrafa, tanto en su manera de editar, como en su manera de hacer las tomas fotográficas.
+      </div>
+      <div class="footer__enlaces--uno">
+          <div class="footer__titulo"><h5>Servicios</h5></div>
+          <nav><p>
+              <ul>
+                  <li><a href="servicios.html#eventos">eventos</a></li>
+                  <li><a href="servicios.html#fliadoc">familia documental</a></li>
+                  <li><a href="servicios.html#producto">sesión producto</a></li>
+                  <li><a href="servicios.html#servicios-opc">servicios opcionales</a></li>
+              </ul>
+            </p></nav> 
+      </div>
+      <div class="footer__enlaces--dos">
+        <div class="footer__titulo"><h5>Otros enlaces</h5></div>
+        <nav><p>
+            <ul>
+                <li><a href="portfolio.html">ver portfolio</a></li>
+                <li><a href="https://wa.link/ykaiuj">pedir presupuesto</a></li>
+                <li><a href="servicios.html#preguntasFrecuentes">preguntas frecuentes</a></li>
+                <li><a href="sobremi.html">conocé sobre mí</a></li>
+            </ul>
+          </p></nav> 
+    </div>
+      <div class="footer__contacto">
+          <div class="footer__titulo"><h5>contacto</h5></div>
+          <div class="footer__contacto--texto">
+            <a href="mailto:mlaurainfo@gmail.com" target="_blank"><i class="fas fa-envelope me-3"></i>mlaurainfo@gmail.com</a>
+            <a href="tel:0111565537005" target="_blank"><i class="fas fa-phone me-3"></i> +54 9 11 6553 7005</a>
+            <a href="https://goo.gl/maps/ujKz2wAP7ebt957h9" target="_blank"><i class="fas fa-home me-3"></i> Don Torcuato, Buenos Aires</a><span style="display: flex; justify-content: center; margin-top: 10px;">
+            <a href="https://wa.link/vsbo29" target="_blank"><i class="fab fa-whatsapp fa-lg me-3"></i></a>
+            <a href="https://www.instagram.com/mlauraphotography/" target="_blank"><i class="fab fa-instagram fa-lg me-3"></i></a> <a href="https://www.facebook.com/MariaLauraPhotography/" target="_blank"><i class="fab fa-facebook-f fa-lg me-3"></i></a></span>
+      </div>
+    </div>
+      <div class="footer__copyright">
+        © 2021 Copyright: <a href="https://github.com/caamlg">Camila Giorgetta</a>
+      </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function(){
+      
+      window.addEventListener('scroll', function() {
+           
+        if (window.scrollY > 200) {
+          document.getElementById('navbar_top').classList.add('fixed-top');
+          navbar_height = document.querySelector('.navbar').offsetHeight;
+          document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+           document.getElementById('navbar_top').classList.remove('fixed-top');
+          document.body.style.paddingTop = '0';
+        } 
+      });
+    }); 
+  </script>
+  </body>
 </html>

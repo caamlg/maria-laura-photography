@@ -6,10 +6,22 @@ p {
     margin: 15px;
     color: $gris;
     font-size: 1rem;
+    font-family: 'Varta', sans-serif;
     text-align: justify;
+}
+a {
+    color: inherit;
 }
 body {
     background-color: $amarillo;
+}
+.fixed-top {
+    top: -40px;
+    background-color: $gris !important;
+    box-shadow: 0px 2px 2px 1px rgba(0,0,0,0.75) !important;
+    transform: translateY(40px);
+    transition: all .3s;
+    z-index: 1030;
 }
 .header {
     width: 100%;
@@ -32,31 +44,43 @@ color: $rosa;
 font-weight: 700;
 text-align: center;
 letter-spacing: 2px;
+margin-left: 15px;
+display: none;
+}
+.nav__redes {
+    display: none;
 }
 .header__titulo {
+    margin: 0px 10vw;
     padding: 10px;
     position: relative;
         h1 {
-        font-size: 2.5rem;
-        font-family: $fuente-titulo;
-        color: #fff;
-        font-weight: 700;
-        text-align: center;
-        letter-spacing: 2px;
+            @include h1;
+            text-shadow: #000 1px 0 10px;
         }
 }
-
+.header__texto {
+    p {
+        text-align: center;
+        color: #fff;
+        text-shadow: #000 1px 0 10px;
+        font-style: italic;
+    }
+}
 footer {
     background-color: $verde;
     padding: 40px 20px;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto auto auto;
     gap: 10px 0px;
     grid-template-areas:
-      "footLogo footLogo"
-      "footEnlaces footContacto"
-      "footCopy footCopy";
+      "footLogo"
+      "footLogo"
+      "footEnlacesUno"
+      "footEnlacesDos"
+      "footContacto"
+      "footCopy";
     justify-items: center;
     justify-content: space-evenly;
     align-items: center;
@@ -74,42 +98,50 @@ footer {
         margin-right: 30px;
     }
 }
-.footer__enlaces {
-    nav, ul, ul a { @extend .footer__enlaces }
+.footer__enlaces--uno {
+    nav, ul, ul a { @extend .footer__enlaces--uno }
     display: inline-block;
     list-style: none;
     color: #6bbc9a;
     font-size: 0.85rem;
     text-decoration: none;
     text-transform: capitalize;
-    grid-area: footEnlaces;
+    grid-area: footEnlacesUno;
     }
-.footer__enlaces--hover, .footer__enlaces ul a:hover {
+    .footer__enlaces--dos {
+        nav, ul, ul a { @extend .footer__enlaces--dos }
+        display: inline-block;
+        list-style: none;
+        color: #6bbc9a;
+        font-size: 0.85rem;
+        text-decoration: none;
+        text-transform: capitalize;
+        grid-area: footEnlacesDos;
+        }
+.footer__enlaces--hover, .footer__enlaces--uno ul a:hover, .footer__enlaces--dos ul a:hover {
     color: #0e9cdd;
 }
 .footer__contacto {
     text-align: center;
     grid-area: footContacto;
 }
-.footer__contacto--titulo {
-    h5 {
-    font-family: $fuente-titulo;
-    color: $rosa;
-    font-weight: 700;
-    font-size: 1.56rem;
-    letter-spacing: 1.5px;
-    padding: 10px;
+.footer__titulo {
+    h5 { @include h5 
     }
 }
 .footer__contacto--texto {
-    p {
-    color: $gris;
-    font-size: 0.85rem;
-    padding: 5px;
+    a {
+    color: $gris !important;
+    font-size: 0.85rem !important;
+    line-height: 80%;
+    padding: 5px !important;
+    text-decoration: none !important;
+    display: block;
+    text-align: left;
     }
 }
 img.footer__contacto--logos {
-        width: 40px;
+        width: 60px;
 }
 .footer__copyright {
     color: $gris;
@@ -117,6 +149,10 @@ img.footer__contacto--logos {
     padding: 5px;
     justify-self: center;
     grid-area: footCopy;
+    a {
+        text-decoration: none;
+        &:hover { color: inherit; }
+    }
 }
 .pagina-error {
     p {

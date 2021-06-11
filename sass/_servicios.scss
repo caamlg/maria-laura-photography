@@ -56,14 +56,7 @@
     justify-content: center;
 }
 .servicios__titulo {
-    h2{
-        font-family: $fuente-titulo;
-        color: $rosa;
-        font-weight: 700;
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        padding: 5px 10px;
-    }
+    @include h2
 }
 .servicios__titulo--Opcionales {
     grid-area: tituloOpcionales;
@@ -115,15 +108,7 @@
         padding: 5px;
 }
 .serviciosOpcionales__titulo {
-    h3 {
-    font-family: $fuente-titulo;
-    color: $rosa;
-    font-weight: 700;
-    font-size: 2.19rem;
-    letter-spacing: 1.5px;
-    padding: 5px;
-    text-align: center;
-    }
+    @include h3 
 }
 @each $opc in Fotolibro, Guirnalda, Ready {
     .serviciosOpcionales__imagen--#{$opc} {

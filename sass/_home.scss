@@ -15,3 +15,9 @@ img.mainHome__imagen {
         width: 70vw;
         object-fit: cover;
 }
+.mainHome__opciones--titulo {
+        @include h3
+}
+.otros-home {
+        background-color: #c6e4e9
+}
