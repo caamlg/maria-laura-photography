@@ -9,6 +9,9 @@ p {
     font-family: 'Varta', sans-serif;
     text-align: justify;
 }
+a {
+    color: inherit;
+}
 body {
     background-color: $amarillo;
 }
@@ -46,9 +49,6 @@ display: none;
 }
 .nav__redes {
     display: none;
-}
-.container-fluid--nav {
-    justify-content: space-around !important;
 }
 .header__titulo {
     margin: 0px 10vw;
@@ -149,6 +149,10 @@ img.footer__contacto--logos {
     padding: 5px;
     justify-self: center;
     grid-area: footCopy;
+    a {
+        text-decoration: none;
+        &:hover { color: inherit; }
+    }
 }
 .pagina-error {
     p {

@@ -35,8 +35,8 @@
         display: inline-block;
         img {
             width: 45px;
-            padding: 5px;
-            filter: grayscale(80%);
+            padding: 10px;
+            filter: grayscale(95%);
             transition: all 0.3s;
             &:hover {
                 filter: none;
@@ -63,6 +63,9 @@ img.mainHome__imagen {
 }
 }
 @media only screen and (min-width: 600px) {
+    .container-fluid--nav {
+        justify-content: space-around !important;
+    }
     footer {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;

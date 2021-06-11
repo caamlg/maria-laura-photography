@@ -11,6 +11,9 @@ p {
   font-family: 'Varta', sans-serif;
   text-align: justify; }
 
+a {
+  color: inherit; }
+
 body {
   background-color: #faf3dd; }
 
@@ -60,9 +63,6 @@ body {
 
 .nav__redes {
   display: none; }
-
-.container-fluid--nav {
-  justify-content: space-around !important; }
 
 .header__titulo {
   margin: 0px 10vw;
@@ -158,6 +158,10 @@ img.footer__contacto--logos {
   padding: 5px;
   justify-self: center;
   grid-area: footCopy; }
+  .footer__copyright a {
+    text-decoration: none; }
+    .footer__copyright a:hover {
+      color: inherit; }
 
 .pagina-error p {
   text-align: center;
@@ -214,7 +218,7 @@ img.footer__contacto--logos {
 
 .accordion-body {
   color: #5e6472;
-  background-color: #aed9e0; }
+  background-color: #c6e4e9; }
 
 .mainHome {
   display: flex;
@@ -241,6 +245,9 @@ img.mainHome__imagen {
   letter-spacing: 1.5px;
   padding: 5px;
   text-align: center; }
+
+.otros-home {
+  background-color: #c6e4e9; }
 
 .servicios {
   padding: 20px;
@@ -550,8 +557,8 @@ textarea {
     display: inline-block; }
     .nav__redes img {
       width: 45px;
-      padding: 5px;
-      filter: grayscale(80%);
+      padding: 10px;
+      filter: grayscale(95%);
       transition: all 0.3s; }
       .nav__redes img:hover {
         filter: none; } }
@@ -572,6 +579,8 @@ textarea {
     object-fit: cover; } }
 
 @media only screen and (min-width: 600px) {
+  .container-fluid--nav {
+    justify-content: space-around !important; }
   footer {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
