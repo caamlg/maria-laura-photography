@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
     <title>Maria Laura Photography</title>
 </head>
@@ -78,7 +79,7 @@
         </p>
         <img src="images/escritorio.jpg" alt="foto" class="mainHome__imagen">
     </div>
-    <div class="container">
+    <div class="container-fluid bg-light">
       <div class="row">
         <div class="col">
           <div class="mainHome__opciones--titulo">
@@ -96,31 +97,40 @@
     </div>
     <footer>
         <div class="footer__logo">
-            <img src="images/LogoML.png" alt="logo" width="150">Al aceptar y contratar un presupuesto, los contratantes aceptan la forma de trabajar de la fotógrafa, tanto en su manera de editar, como en su manera de hacer las tomas fotográficas.
+            <img src="images/LogoML.png" alt="logo" width="75">Al aceptar y contratar un presupuesto, los contratantes aceptan la forma de trabajar de la fotógrafa, tanto en su manera de editar, como en su manera de hacer las tomas fotográficas.
         </div>
-        <div class="footer__enlaces">
-            <nav>
+        <div class="footer__enlaces--uno">
+            <div class="footer__titulo"><h5>Servicios</h5></div>
+            <nav><p>
                 <ul>
-                    <li><a href="index.html">Ir arriba</a></li>
-                    <li><a href="pages/servicios.html">servicios</a></li>
-                    <li><a href="pages/portfolio.html">portfolio</a></li>
-                    <li><a href="pages/sobremi.html">sobre mí</a></li>
-                    <li><a href="pages/contacto.html">contacto</a></li>
-                    <li><a href="pages/servicios.html#preguntasFrecuentes">preguntas frecuentes</a></li>
+                    <li><a href="pages/servicios.html#eventos">eventos</a></li>
+                    <li><a href="pages/servicios.html#fliadoc">familia documental</a></li>
+                    <li><a href="pages/servicios.html#producto">sesión producto</a></li>
+                    <li><a href="pages/sobremi.html#servicios-opc">servicios opcionales</a></li>
                 </ul>
-            </nav> 
+              </p></nav> 
         </div>
+        <div class="footer__enlaces--dos">
+          <div class="footer__titulo"><h5>Otros enlaces</h5></div>
+          <nav><p>
+              <ul>
+                  <li><a href="pages/portfolio.html">ver portfolio</a></li>
+                  <li><a href="https://wa.link/ykaiuj">pedir presupuesto</a></li>
+                  <li><a href="pages/servicios.html#preguntasFrecuentes">preguntas frecuentes</a></li>
+                  <li><a href="pages/sobremi.html">conocé sobre mí</a></li>
+              </ul>
+            </p></nav> 
+      </div>
         <div class="footer__contacto">
-            <div class="footer__contacto--titulo"><h5>contacto</h5></div>
+            <div class="footer__titulo"><h5>contacto</h5></div>
             <div class="footer__contacto--texto">
-              <p>
-                Don Torcuato, Buenos Aires<br>
-                +54 9 11 6553 7005<br>
-                mlaurainfo@gmail.com 
-              </p>
-                <a href="https://wa.link/vsbo29"><img src="https://cdn.pixabay.com/photo/2016/11/21/08/44/icon-1844471_960_720.png" class="footer__contacto--logos" alt="whatsapp" title="whatsapp"></a><a href="https://www.instagram.com/mlauraphotography/"><img src="https://cdn.pixabay.com/photo/2016/11/18/11/16/social-1834010_960_720.png" class="footer__contacto--logos" alt="instagram" title="instagram"></a><a href="https://www.facebook.com/MariaLauraPhotography/"><img src="https://cdn.pixabay.com/photo/2016/11/18/11/16/social-1834007_960_720.png" class="footer__contacto--logos" alt="facebook" title="facebook"></a>
-              </div>
+              <a href="mailto:mlaurainfo@gmail.com" target="_blank"><i class="fas fa-envelope me-3"></i>mlaurainfo@gmail.com</a>
+              <a href="tel:0111565537005" target="_blank"><i class="fas fa-phone me-3"></i> +54 9 11 6553 7005</a>
+              <a href="https://goo.gl/maps/ujKz2wAP7ebt957h9" target="_blank"><i class="fas fa-home me-3"></i> Don Torcuato, Buenos Aires</a><span style="display: flex; justify-content: center; margin-top: 10px;">
+              <a href="https://wa.link/vsbo29" target="_blank"><i class="fab fa-whatsapp fa-lg me-3"></i></a>
+              <a href="https://www.instagram.com/mlauraphotography/" target="_blank"><i class="fab fa-instagram fa-lg me-3"></i></a> <a href="https://www.facebook.com/MariaLauraPhotography/" target="_blank"><i class="fab fa-facebook-f fa-lg me-3"></i></a></span>
         </div>
+      </div>
         <div class="footer__copyright">
             © Camila Giorgetta
         </div>
