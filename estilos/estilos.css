@@ -12,10 +12,14 @@ p {
   text-align: justify; }
 
 a {
-  color: inherit; }
+  color: #019893;
+  text-decoration: none; }
+  a:hover {
+    color: #019893;
+    text-decoration: underline; }
 
 body {
-  background-color: #faf3dd; }
+  background-color: #fcf9ee; }
 
 .fixed-top {
   top: -40px;
@@ -111,7 +115,7 @@ footer {
 .footer__enlaces--uno, .footer__enlaces--uno nav, .footer__enlaces--uno ul, .footer__enlaces--uno ul a {
   display: inline-block;
   list-style: none;
-  color: #6bbc9a;
+  color: #019893;
   font-size: 0.85rem;
   text-decoration: none;
   text-transform: capitalize;
@@ -120,7 +124,7 @@ footer {
 .footer__enlaces--dos, .footer__enlaces--dos nav, .footer__enlaces--dos ul, .footer__enlaces--dos ul a {
   display: inline-block;
   list-style: none;
-  color: #6bbc9a;
+  color: #019893;
   font-size: 0.85rem;
   text-decoration: none;
   text-transform: capitalize;
@@ -474,7 +478,7 @@ img.mainHome__imagen {
   padding: 20px; }
 
 .form__fieldset {
-  background-color: #aed9e0;
+  background-color: #66c1be;
   padding: 10px;
   display: flex;
   flex-direction: column;

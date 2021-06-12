@@ -10,7 +10,10 @@ p {
     text-align: justify;
 }
 a {
-    color: inherit;
+    color: $verdeos;
+    text-decoration: none;
+    &:hover{color: $verdeos;
+    text-decoration: underline;}
 }
 body {
     background-color: $amarillo;
@@ -103,7 +106,7 @@ footer {
     nav, ul, ul a { @extend .footer__enlaces--uno }
     display: inline-block;
     list-style: none;
-    color: #6bbc9a;
+    color: $verdeos;
     font-size: 0.85rem;
     text-decoration: none;
     text-transform: capitalize;
@@ -113,7 +116,7 @@ footer {
         nav, ul, ul a { @extend .footer__enlaces--dos }
         display: inline-block;
         list-style: none;
-        color: #6bbc9a;
+        color: $verdeos;
         font-size: 0.85rem;
         text-decoration: none;
         text-transform: capitalize;
