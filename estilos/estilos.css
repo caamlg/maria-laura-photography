@@ -166,7 +166,8 @@ img.footer__contacto--logos {
   .footer__copyright a {
     text-decoration: none; }
     .footer__copyright a:hover {
-      color: inherit; }
+      color: #019893;
+      text-decoration: underline; }
 
 .pagina-error p {
   text-align: center;

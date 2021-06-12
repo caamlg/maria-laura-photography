@@ -155,7 +155,8 @@ img.footer__contacto--logos {
     grid-area: footCopy;
     a {
         text-decoration: none;
-        &:hover { color: inherit; }
+        &:hover { color: $verdeos;
+        text-decoration: underline; }
     }
 }
 .pagina-error {
