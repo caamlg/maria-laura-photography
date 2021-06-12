@@ -103,7 +103,8 @@ footer {
   padding: 0px 10px;
   display: flex;
   align-items: center;
-  grid-area: footLogo; }
+  grid-area: footLogo;
+  margin-bottom: 30px; }
   .footer__logo img {
     margin-right: 30px; }
 
