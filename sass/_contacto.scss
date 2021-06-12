@@ -6,16 +6,39 @@
     justify-content: center;
     align-items: center;
 }
-.contacto__foto {
-    img {
-    width: 300px;
-    height: 350px;
-    object-fit: cover;
-    padding: 20px;
+.contacto__titulo {
+    @include h3
+}
+.contacto__enlaces {
+    a {
+    text-decoration: none;
+    color: $gris;
+    font-family: 'Varta', sans-serif;
+    display: block;
+    &:hover {
+        color: $celeste;
+        text-decoration: underline;
+    }
     }
 }
+.mapa {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position:absolute;
+    }
+}
+.QR {
+    display: none;
+}
 .contacto__form {
-    font-family: Varta, Geneva, Tahoma, sans-serif;
+    font-family: 'Varta', sans-serif;
     font-size: 0.88rem;
     line-height: 130%;
     color: #303238;

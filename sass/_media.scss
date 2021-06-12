@@ -36,6 +36,12 @@
         align-items: center;
         justify-content: center;
     }
+    .QR {
+        display: flex;
+        p {
+            text-align: left;
+        }
+    }
 }
 @media only screen and (min-width: 360px) {
     .logoTexto {
@@ -162,14 +168,4 @@ img.mainHome__imagen {
         "titulo--Fotolibro titulo--Guirnalda titulo--Ready"
         "texto--Fotolibro texto--Guirnalda texto--Ready";
 }
-}
-@media only screen and (min-width: 600px) {
-    .contacto__foto {
-        img {
-        width: 430px;
-        height: 600px;
-        object-fit: cover;
-        padding: 20px;
-        }
-    }
 }

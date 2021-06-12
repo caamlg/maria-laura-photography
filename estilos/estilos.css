@@ -419,10 +419,11 @@ img.mainHome__imagen {
   min-height: 100vh; }
   .sobremi p {
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 30px;
+    padding: 10px 30px;
     color: #fff;
     margin: auto;
-    width: 70%; }
+    width: 100%;
+    text-align: left; }
 
 .contacto {
   padding: 20px;
@@ -432,14 +433,41 @@ img.mainHome__imagen {
   justify-content: center;
   align-items: center; }
 
-.contacto__foto img {
-  width: 300px;
-  height: 350px;
-  object-fit: cover;
-  padding: 20px; }
+.contacto__titulo {
+  font-family: "Amatic SC", cursive;
+  color: #ffa69e;
+  font-weight: 700;
+  font-size: 2.19rem;
+  letter-spacing: 1.1px;
+  padding: 5px;
+  text-align: center; }
+
+.contacto__enlaces a {
+  text-decoration: none;
+  color: #5e6472;
+  font-family: 'Varta', sans-serif;
+  display: block; }
+  .contacto__enlaces a:hover {
+    color: #aed9e0;
+    text-decoration: underline; }
+
+.mapa {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+  .mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
+
+.QR {
+  display: none; }
 
 .contacto__form {
-  font-family: Varta, Geneva, Tahoma, sans-serif;
+  font-family: 'Varta', sans-serif;
   font-size: 0.88rem;
   line-height: 130%;
   color: #303238;
@@ -553,7 +581,11 @@ textarea {
     background-color: rgba(94, 100, 114, 0.7);
     display: flex;
     align-items: center;
-    justify-content: center; } }
+    justify-content: center; }
+  .QR {
+    display: flex; }
+    .QR p {
+      text-align: left; } }
 
 @media only screen and (min-width: 360px) {
   .logoTexto {
@@ -648,10 +680,3 @@ textarea {
     grid-template-rows: auto 1fr auto 1fr;
     gap: 5px 20px;
     grid-template-areas: "tituloOpcionales tituloOpcionales tituloOpcionales" "imagen--Fotolibro imagen--Guirnalda imagen--Ready" "titulo--Fotolibro titulo--Guirnalda titulo--Ready" "texto--Fotolibro texto--Guirnalda texto--Ready"; } }
-
-@media only screen and (min-width: 600px) {
-  .contacto__foto img {
-    width: 430px;
-    height: 600px;
-    object-fit: cover;
-    padding: 20px; } }

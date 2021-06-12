@@ -7,6 +7,7 @@
     <meta name="description" content="Si necesitás un fotógrafo para tu evento o documentar una parte de tu vida, pedí tu presupuesto o preguntame lo que quieras acá">
     <meta name="keywords"  content="presupuesto fotos, precios fotografo, precios fotos fiesta">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../estilos/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;500;700&display=swap" rel="stylesheet">
@@ -63,22 +64,43 @@
             </div>
           </nav>
         </div>
-        <div class="header__titulo">
+        <div class="header__titulo" data-aos="fade-down" data-aos-duration="1000"> 
           <h1>
             cómo contactarte conmigo
           </h1>
           <a href="#mainc" class="arrow down">Down</a>
         </div>
     </header>
-    <div class="contacto" id="mainc">
-        <div class="contacto__foto"><img src="../images/flores.jpg" alt="foto de flores"></div>
-        <form action="mlphotography.php" method="post" enctype="application/x-www-form-urlencoded" class="contacto__form">
-            <fieldset class="form__fieldset">
+    <div class="contacto container-fluid row align-items-start" id="mainc">
+        <div class="col-lg-6 p-4">
+          <div class="contacto__titulo"><h2>Contactame</h2></div>
+          <div class="contacto__enlaces row justify-content-center ms-auto">
+            <div class="col-lg-6 col-md-4 col-sm-6">
+          <a href="https://wa.link/vsbo29" target="_blank"><i class="fab fa-whatsapp fa-lg me-3"></i> +54 9 11 6553 7005</a>
+          <a href="https://www.instagram.com/mlauraphotography/" target="_blank"><i class="fab fa-instagram fa-lg me-3"></i> mlauraphotography</a>
+          <a href="https://www.facebook.com/MariaLauraPhotography/" target="_blank"><i class="fab fa-facebook-f fa-lg me-3"></i> MariaLauraPhotography</a>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-6">
+          <a href="mailto:mlaurainfo@gmail.com" target="_blank"><i class="fas fa-envelope me-3"></i>mlaurainfo@gmail.com</a>
+          <a href="tel:0111565537005" target="_blank"><i class="fas fa-phone me-3"></i> +54 9 11 6553 7005</a>
+          <a href="https://goo.gl/maps/ujKz2wAP7ebt957h9" target="_blank"><i class="fas fa-home me-3"></i> Don Torcuato, Buenos Aires</a>
+        </div>
+        </div>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52608.13778581882!2d-58.66680668851413!3d-34.502665954208965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbb4558d53941%3A0x4a50eedaa7f8f645!2sDon%20Torcuato%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1623521471392!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      <div class="QR row p-3 align-items-center">
+        <img src="../images/qr.jpeg" alt="QR whatsapp" class="col-sm-4 img-fluid">
+        <p class="col-sm-6 p-2">Escaneá este código para escribirme por whatsapp.</p>
+      </div>
+        </div>
+        <form action="mlphotography.php" method="post" enctype="application/x-www-form-urlencoded" class="contacto__form col-lg-6">
+            <fieldset class="form__fieldset container-fluid">
                 <legend><div class="form__titulo"><h4>Formulario de contacto</h4></div></legend>
                 <label for="nombre" class="fieldset__label">Tu nombre:</label> <input type="text" name="nombre">
                 <label for="mail" class="fieldset__label">Email de contacto:</label> <input type="email" email="mail">
                 <label for="telefono" class="fieldset__label">Teléfono de contacto:</label> <input type="number" number="telefono">
-                <label for="metodocontacto" class="fieldset__label">Método de contacto:</label>
+                <label for="metodocontacto" class="fieldset__label">Método de contacto preferido:</label>
                 <select name="metodocontacto" class="fieldset__label">
                     <option value="tel">Teléfono</option>
                     <option value="mail">Email</option>
@@ -149,6 +171,10 @@
         } 
       });
     }); 
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
   </body>
 </html>
