@@ -17,6 +17,25 @@
             font-style: italic;
         }
     }
+    .servicios__menu--texto {
+        width: 192px;
+        height: 90px;
+        position: absolute;
+        top: 3%;
+        font-family: $fuente-titulo;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        display: none;
+    }
+    .servicios__menu--contenedor:hover .servicios__menu--texto {
+        background-color: rgba(94, 100, 114, 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 @media only screen and (min-width: 360px) {
     .logoTexto {

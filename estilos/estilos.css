@@ -287,13 +287,10 @@ img.mainHome__imagen {
   color: #fff;
   text-align: center;
   text-transform: uppercase;
-  display: none; }
-
-.servicios__menu--contenedor:hover .servicios__menu--texto {
-  background-color: rgba(94, 100, 114, 0.7);
-  display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  display: flex;
+  background-color: rgba(94, 100, 114, 0.7); }
 
 .servicios__titulo {
   font-family: "Amatic SC", cursive;
@@ -539,7 +536,24 @@ textarea {
     text-align: center;
     color: #fff;
     text-shadow: #000 1px 0 10px;
-    font-style: italic; } }
+    font-style: italic; }
+  .servicios__menu--texto {
+    width: 192px;
+    height: 90px;
+    position: absolute;
+    top: 3%;
+    font-family: "Amatic SC", cursive;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    display: none; }
+  .servicios__menu--contenedor:hover .servicios__menu--texto {
+    background-color: rgba(94, 100, 114, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
 
 @media only screen and (min-width: 360px) {
   .logoTexto {
