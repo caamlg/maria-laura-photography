@@ -12,8 +12,7 @@ p {
 a {
     color: $verdeos;
     text-decoration: none;
-    &:hover{color: $verdeos;
-    text-decoration: underline;}
+    &:hover{color: $verdeos;}
 }
 body {
     background-color: $amarillo;
