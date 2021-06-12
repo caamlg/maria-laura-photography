@@ -410,7 +410,8 @@ img.mainHome__imagen {
     object-fit: cover;
     width: 300px;
     height: 300px;
-    padding: 10px; }
+    padding: 10px;
+    margin-bottom: 10px; }
 
 .sobremi {
   padding: 30px;
