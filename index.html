@@ -7,6 +7,7 @@
     <meta name="description" content="Si querés algo distinto a las clásicas fotos posadas, este es el sitio correcto. Pedí tu presupuesto. Fotografía Social. Sesiones Lifestyle, Books Preboda, 15, Parejas, Fotografía de Familia, Fotografía de Bodas y Celebraciones">
     <meta name="keywords"  content="fotografo para fiestas, fotografo profesional, fotografo para casamiento, fotografo para 15 años, fotografo para eventos, fotografo para cumpleaños, contratar fotografo para eventos, fotos para eventos, fotografia documental, fotografo para recien nacido, fotografo para bebes, book de fotos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varta:wght@400;500;700&display=swap" rel="stylesheet">
@@ -74,29 +75,29 @@
         </div>
     </header>
     <div class="mainHome" id="main">
-        <p class="mainHome__texto">El estilo de fotos que realizo se encuentra enfocado en la fotografía documental.<br>
+        <p class="mainHome__texto" data-aos="fade-down">El estilo de fotos que realizo se encuentra enfocado en la fotografía documental.<br>
                     <strong>¿Cómo es este tipo de fotografía?</strong><br>
                     Simple, se basa en documentar la realidad, los sentimientos, las sensaciones, todo lo que se vive en un evento. Sin que la persona tenga que estar super pendiente de la cámara. <strong>¿Pero entonces, no haces las clásicas fotos posadas?</strong> ¡Por supuesto que sí!, son super necesarias también, pero como complemento.
         </p>
-        <img src="images/escritorio.jpg" alt="foto" class="mainHome__imagen">
+        <img src="images/escritorio.jpg" alt="foto" class="mainHome__imagen" data-aos="fade-left">
     </div>
     <div class="container-fluid">
       <div class="row py-3">
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="mainHome__opciones--titulo">
           <h3>Servicios</h3>
           </div>
           <img src="images/niki.jpg" class="img-fluid px-4" alt="home servicios">
           <p class="px-3">Si estás buscando hacer una sesión de fotos inolvidable, ya sea para un evento, guardar un recuerdo o hacer un regalo, te invito a conocer todos los servicios que estoy ofreciendo haciendo clic <a href="pages/servicios.html">acá</a>.</p>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
           <div class="mainHome__opciones--titulo">
           <h3>Portfolio</h3>
           </div>
           <img src="images/papel.jpg" class="img-fluid px-4" alt="home portfolio">
           <p class="px-3">Si antes de elegirme querés ver con mayor detalle el estilo de fotografías que tomo, te recomiendo visitar mi <a href="pages/portfolio.html">portfolio</a>. Vas a encontrar un montón de muestras de mi trabajo para saber si es el estilo que estás buscando.</p>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up">
         <div class="mainHome__opciones--titulo">
           <h3>Sobre Mí</h3>
         </div>
@@ -161,6 +162,10 @@
           } 
         });
       }); 
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
