@@ -88,6 +88,9 @@ img.mainHome__imagen {
 }
 }
 @media only screen and (min-width: 600px) {
+    .pad {
+        padding: 25px 65px !important;
+    }
     .container-fluid--nav {
         justify-content: space-around !important;
     }
@@ -99,6 +102,21 @@ img.mainHome__imagen {
                         "footEnlacesUno footEnlacesDos footContacto"
                         "footCopy footCopy footCopy";
 }
+.portfolio {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-between;
+        img {
+            object-fit: cover;
+            width: 400px;
+            height: 400px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    }
 }
 @media only screen and (min-width: 1024px) {
     footer {
@@ -169,3 +187,21 @@ img.mainHome__imagen {
         "texto--Fotolibro texto--Guirnalda texto--Ready";
 }
 }
+@media only screen and (min-width: 1330px) {
+    .portfolio {
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-between;
+            img {
+                object-fit: cover;
+                width: 300px;
+                height: 300px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    
